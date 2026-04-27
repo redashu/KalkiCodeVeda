@@ -22,45 +22,17 @@ The name is inspired by two ideas:
 | 📝 Reference Material | Provide learners with a clean, well-organised codebase to follow along |
 
 ---
+# How to run terraform code 
 
-## Repository Structure
+```bash
+cd sample
 
-As the course library grows, topics will be organised into dedicated folders:
+terraform init 
+terraform plan 
+terraform apply 
 
+# To destroy resources 
+
+terraform destroy 
 ```
-KalkiCodeVeda/
-├── README.md          ← You are here
-├── <topic-1>/         ← Code samples for Course / Module 1
-├── <topic-2>/         ← Code samples for Course / Module 2
-└── ...
-```
 
-Each topic folder will contain:
-- `README.md` – brief description, learning objectives, and prerequisites
-- Source files / projects used in the corresponding video lessons
-- Any supporting assets (diagrams, config files, etc.)
-
----
-
-## How to Use This Repo
-
-1. **Browse by topic** – navigate to the folder that matches the course module you are watching.
-2. **Clone locally** – run `git clone https://github.com/delvex-community/KalkiCodeVeda.git` to get all the code on your machine.
-3. **Follow along** – open the relevant folder in your favourite editor while watching the video.
-4. **Experiment** – modify the examples, break things, and learn by doing.
-
----
-
-## Contributing
-
-This repository is primarily maintained for internal R&D and course production. If you spot a bug or have a suggestion, feel free to open an issue.
-
----
-
-## License
-
-Content in this repository is intended for educational purposes. See individual folders for any specific licensing notes.
-
----
-
-*Made with ❤️ by the Delvex Community*
